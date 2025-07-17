@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.recipe-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.back-nav {
+    margin-bottom: 20px;
+}
+
+.back-nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e67e22;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    font-weight: 500;
+}
+
+.back-nav a:hover {
+    background: #d35400;
+}
+
+.recipe-header {
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #e67e22;
+    padding-bottom: 20px;
+}
+
+.title {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.recipe-image {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.recipe-description {
+    font-size: 1.1em;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f9f9f9;
+    border-left: 4px solid #e67e22;
+    border-radius: 5px;
+    text-align: center;
+    font-style: italic;
+}
+
+.ingredients-section,
+.instructions-section {
+    margin: 30px 0;
+    padding: 25px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #e67e22;
+}
+
+.section-title {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.ingredients-list,
+.instructions-list {
+    padding-left: 25px;
+}
+
+.ingredients-list li,
+.instructions-list li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    padding: 5px 0;
+}
+
+.ingredients-list li {
+    list-style-type: "🥪 ";
+    padding-left: 10px;
+}
+
+.instructions-list li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .recipe-container {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    .title {
+        font-size: 2em;
+    }
+    
+    .recipe-image {
+        height: 250px;
+    }
+    
+    .ingredients-section,
+    .instructions-section {
+        padding: 15px;
+    }
+}

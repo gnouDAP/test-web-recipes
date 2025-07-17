@@ -7,19 +7,45 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Duong Pham Recipes</h1>
-    </header>
-    <main>
-        <section>
-            <h2>Featured Recipes</h2>
-            <ul>
-                <li><a href="./pages/sandwich.html">Sandwich</a></li>
-                <li><a href="./pages/pho.html">Pho</a></li>
-                <li><a href="./pages/bunbo.html">Bun Bo</a></li>
-            </ul>
-        </section>
-    </main>
+    <div class="container">
+        <header class="hero-section">
+            <h1 class="main-title">Welcome to Duong Pham Recipes</h1>
+            <p class="hero-description">Discover authentic Vietnamese cuisine and delicious international dishes crafted with love and tradition.</p>
+        </header>
+        
+        <main class="recipes-section">
+            <h2 class="section-title">Featured Recipes</h2>
+            <div class="recipe-grid">
+                <div class="recipe-card">
+                    <img src="./images/buffalo-chicken-sandwiches.jpg" alt="Buffalo Chicken Sandwich" class="recipe-image">
+                    <div class="recipe-info">
+                        <h3>Buffalo Chicken Sandwich</h3>
+                        <p>Spicy and flavorful sandwich with tender buffalo chicken and fresh vegetables.</p>
+                        <a href="./pages/html/sandwich.html" class="recipe-link">View Recipe →</a>
+                    </div>
+                </div>
+                
+                <div class="recipe-card">
+                    <img src="./images/pho.jpg" alt="Vietnamese Pho" class="recipe-image">
+                    <div class="recipe-info">
+                        <h3>Vietnamese Pho</h3>
+                        <p>Traditional Vietnamese beef noodle soup with aromatic broth and fresh herbs.</p>
+                        <a href="./pages/html/pho.html" class="recipe-link">View Recipe →</a>
+                    </div>
+                </div>
+                
+                <div class="recipe-card">
+                    <img src="./images/bunbo.jpg" alt="Bun Bo Hue" class="recipe-image">
+                    <div class="recipe-info">
+                        <h3>Bun Bo Hue</h3>
+                        <p>Spicy Vietnamese beef noodle soup from Hue with rice vermicelli and herbs.</p>
+                        <a href="./pages/html/bunbo.html" class="recipe-link">View Recipe →</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
     <footer>
         <p>&copy; 2025 Duong MasterChef</p>
     </footer>
